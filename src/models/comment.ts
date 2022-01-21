@@ -27,9 +27,9 @@ const Comment = db.define(
   }
 );
 
-Comment.sync().then(() => {
-  // Table created  successfully
-  console.log('Comment table created successfully');
-});
+// Comment.sync().then(() => {
+//   // Table created  successfully
+//   console.log('Comment table created successfully');
+// });
 
 export default Comment;
